@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'Times New Roman', Helvetica, sans-serif;
+    font-weight: 400;
+    color: #161616;
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+header {
+    background-color: #E74C3C;
+    size: 1.2;
+    padding: 10px;
+}
+
+header p {
+    line-height: 0%;
+    font-style: italic;
+}
+
+.logo {
+    line-height: 80%;
+    padding: 30px;
+    background-color: #2C3E50;
+    display: inline-block;
+    border-radius: 3px;
+    color: #ECF0F1;
+    text-shadow: 1px 2px 0px #111;
+    box-shadow:
+        inset 2px 2px 4px #1B2530,
+        inset -2px -2px 4px #1B2530;
+    vertical-align: middle;
+}
+
+.logo p {
+    margin-top: 24px;
+}
