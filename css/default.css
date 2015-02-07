@@ -38,8 +38,35 @@ header p {
         inset 2px 2px 4px #1B2530,
         inset -2px -2px 4px #1B2530;
     vertical-align: middle;
+    /*margin-left: 200px;*/
 }
 
 .logo p {
     margin-top: 24px;
+}
+
+nav {
+    display: inline-block;
+    /*margin: 20px;*/
+    width: 130px;
+    margin-left: auto;
+    vertical-align: bottom;
+    /*float: bottom-right;*/
+    /*float: right;*/
+    /*margin-top: 90px;*/
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    background-color: blue;
+    border-radius: 2px;
+    margin: 0 10px 0 10px;
+}
+
+#header-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
 }
