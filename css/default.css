@@ -12,6 +12,11 @@ h1 {
     font-weight: 700;
     margin-bottom: 0px;
 }
+
+p {
+    line-height: 200%;
+}
+
 header {
     background-color: #E74C3C;
     padding: 10px;
@@ -75,6 +80,16 @@ main li {
     line-height: 160%;
 }
 
+h2 {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    border-radius: 4px;
+    padding: 3px 30px 6px 30px;
+    display: inline-block;
+    margin: 15px 5px 10px 50px;
+    text-shadow: 1px 2px 0px #111;
+}
+
 table {
     margin: 10px;
     background-color: #ECF0F1;
@@ -86,6 +101,10 @@ table th {
 
 table td {
     padding: 5px 10px 5px 10px;
+}
+
+.row {
+    background-color: #D3DCDE;
 }
 
 .fig-border {
@@ -110,6 +129,17 @@ figure img {
 figcaption {
     display: table-caption;
     caption-side: bottom;
+    text-align: center;
+}
+
+hr {
+    width: 370px;
+    height: 22px;
+    f
+}
+
+footer {
+    background-color: #E74C3C;
     text-align: center;
 }
 
