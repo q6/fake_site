@@ -68,7 +68,7 @@ nav li:hover {
 
 main {
     margin: 20px 20px 20px 60px;
-    position: relative;
+    /*position: relative;*/
     width: 65%%;
 }
 
@@ -80,13 +80,17 @@ main li {
     line-height: 160%;
 }
 
+.h2-wrap {
+    display: block;
+}
+
 h2 {
     background-color: #2C3E50;
     color: #ECF0F1;
     border-radius: 4px;
     padding: 3px 30px 6px 30px;
     display: inline-block;
-    margin: 15px 5px 10px 50px;
+    margin: 15px 5px 10px 5px;
     text-shadow: 1px 2px 0px #111;
 }
 
@@ -109,8 +113,9 @@ table td {
 
 .fig-border {
     border: 1px solid #0B0B0B;
-    display: inline-block;
+    /*display: inline-block;*/
     margin: 10px;
+    float: right;
 }
 
 figure {
@@ -118,7 +123,6 @@ figure {
     display: table;
     padding: 3px;
     margin: 3px;
-    float: left;
 }
 
 figure img {
@@ -132,6 +136,11 @@ figcaption {
     text-align: center;
 }
 
+article {
+    display: inline-block;
+    clear: right;
+}
+
 hr {
     width: 370px;
     height: 22px;
@@ -141,6 +150,7 @@ hr {
 footer {
     background-color: #E74C3C;
     text-align: center;
+    margin-top: 60px;
 }
 
 
