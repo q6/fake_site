@@ -69,7 +69,7 @@ nav li:hover {
 main {
     margin: 20px 20px 20px 60px;
     /*position: relative;*/
-    width: 65%%;
+    width: 68%;
 }
 
 main ul {
@@ -111,11 +111,18 @@ table td {
     background-color: #D3DCDE;
 }
 
-.fig-border {
+.img-container-r {
     border: 1px solid #0B0B0B;
     /*display: inline-block;*/
-    margin: 10px;
+    margin: 15px 30px 15px 30px;
     float: right;
+}
+
+.img-container-l {
+    border: 1px solid #0B0B0B;
+    /*display: inline-block;*/
+    margin: 15px 30px 15px 30px;
+    float: left;
 }
 
 figure {
@@ -141,10 +148,32 @@ article {
     clear: right;
 }
 
-hr {
-    width: 370px;
-    height: 22px;
-    f
+
+aside {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.search-wrapper {
+    display: block;
+}
+
+.search-box {
+    display: inline-block;
+    width: 15%;
+    padding: 15px;
+    margin: 5px;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+
+}
+
+.search-box:hover {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    text-shadow: 1px 2px 0px #111;
+
 }
 
 footer {
@@ -154,7 +183,7 @@ footer {
 }
 
 
-@media (max-width:820px) {
+@media (max-width:850px) {
     .logo {
         background-color:transparent;
         box-shadow:none;
