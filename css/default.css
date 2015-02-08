@@ -63,6 +63,8 @@ nav li:hover {
 
 main {
     margin: 20px 20px 20px 20px;
+    position: relative;
+    width: 100%;
 }
 
 main ul {
@@ -71,6 +73,18 @@ main ul {
 
 main li {
     line-height: 160%;
+}
+
+table {
+    margin: 10px;
+}
+
+table th {
+    padding: 10px;
+}
+
+table td {
+    padding: 5px 10px 5px 10px;
 }
 
 @media (max-width:820px) {
