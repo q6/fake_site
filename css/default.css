@@ -3,10 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    height: 100%;
+}
 body {
     font-family:'Open Sans', Tahoma, Helvetica, sans-serif;
     font-weight: 400;
     color: #161616;
+    position: relative;
+    padding-bottom: 60px;
+    min-height: 100%;
 }
 h1 {
     font-weight: 700;
@@ -51,7 +58,7 @@ nav {
     right: 0;
     bottom: -10px;
     /*bottom: 0;*/
-    width: 314px;
+    width: 325px;
 }
 nav li {
     float:left;
@@ -69,9 +76,9 @@ nav li:hover {
 }
 
 main {
-    margin: 20px 20px 20px 60px;
+    margin: 20px 60px 20px 60px;
     /*position: relative;*/
-    width: 68%;
+    /*width: 68%;*/
 }
 
 main ul {
@@ -181,7 +188,9 @@ aside {
 footer {
     background-color: #E74C3C;
     text-align: center;
-    margin-top: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 
