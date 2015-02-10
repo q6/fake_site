@@ -69,24 +69,23 @@ nav li {
     padding: 4px 15px 4px 15px;
     font-weight: 700;
     transition: all 0.3s ease;
+    /*text-decoration: none;*/
 }
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
 nav li:hover {
     background-color: #2C3E50;
     /*color: #ECF0F1;*/
 }
 
-nav a {
-    text-decoration: none;
-    color: #161616;
-}
-
-nav a:hover {
+nav li:hover a{
     color: #ECF0F1;
 }
 
-nav a:visited {
-    /*color: red;*/
-}
 
 main {
     margin: 20px 60px 20px 60px;
