@@ -72,6 +72,15 @@ nav li {
 }
 nav li:hover {
     background-color: #2C3E50;
+    /*color: #ECF0F1;*/
+}
+
+nav a {
+    text-decoration: none;
+    color: #161616;
+}
+
+nav a:hover {
     color: #ECF0F1;
 }
 
@@ -155,6 +164,16 @@ figcaption {
 article {
     display: inline-block;
     clear: right;
+}
+
+.planet-picture {
+    /*width: 200px;*/
+    /*height: 200px;*/
+    display: inline-block;
+    border: 1px solid #252525;
+    background-color: #E2E2E2;
+    box-shadow: 0 0 4px 0 #252525;
+    margin: 10px;
 }
 
 
