@@ -23,7 +23,7 @@
                 </div>
             </header>
             <main>
-            <article>
+            <article class="contact-form">
                 <div class="h2-wrap">
                     <h2>Contact the Author</h2>
                 </div>
@@ -32,15 +32,42 @@
                     <legend>About You</legend>
                     <label>Name</label>
                     <input type="text" placeholder="Darth Vader">
-
+                    
                     <label>Email</label>
                     <input type="email" placeholder="DarthVader@Deathstar.biz">
-
+                    
                     <label>Date of Birth</label>
                     <input type="date">
-
+                    
                     <label>Phone Number</label>
-                    <input type="tel" placeholder=" 123 456 1234">
+                    <input type="tel" placeholder="+12 123 456 1234">
+                    
+                    <label>Favorite Color</label>
+                    <input type="color">
+                    
+                    <label>Would like to join the Dark Side?</label>
+                    <input type="radio"
+                    name="join-dark-side"
+                    id ="true"
+                    value="true"/>
+                    <label for="true" class="no-stack">Yes</label>
+                    <input type="radio"
+                    name="join-dark-side"
+                    id ="false"
+                    value="false"/>
+                    <label for="true" class="no-stack">No</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Problem Description</legend>
+                    <label>What is the nature of your issue?</label>
+                    <select id="some-list">
+                        <option value="1">Appreciation</option>
+                        <option value="1">Commas</option>
+                        <option value="3">Your CSS is on fire</option>
+                        <option value="4">Other</option>
+                    </select>
+                    <label>A brief description of the problem.</label>
+                    <textarea placeholder="Bla Bla bla"></textarea>
                 </fieldset>
             </article>
             <footer>
