@@ -74,7 +74,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: inherit;
+    /*color: inherit;*/
 }
 
 nav li:hover {
@@ -88,7 +88,10 @@ nav li:hover a{
 
 
 main {
-    margin: 20px 60px 20px 60px;
+    /*margin: 20px 60px 20px 60px;*/
+    margin: 20px auto;
+    width: 100%;
+
     /*position: relative;*/
     /*width: 68%;*/
 }
@@ -167,6 +170,8 @@ figcaption {
 article {
     display: inline-block;
     clear: right;
+    margin-left: 60px;
+    margin-left: 60px;
 }
 
 .planet-picture {
@@ -178,6 +183,19 @@ article {
     box-shadow: 0 0 4px 0 #252525;
     margin: 10px;
 }
+
+.gallery {
+    margin: 0 auto 0 auto;
+    /*width: 97%;*/
+    text-align: center;
+    /*display: inline-block;*/
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+}
+
 
 
 aside {
